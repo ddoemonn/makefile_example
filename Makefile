@@ -4,8 +4,8 @@ output: main.o accept.o
 main.o: main.cpp
 	g++ -c main.cpp
 
-accept.o: accept_functions.cpp accept_functions.h
-	g++ -c accept_functions.cpp -o accept.o
+accept.o: ./accept/accept_functions.cpp ./accept/accept_functions.h
+	g++ -c ./accept/accept_functions.cpp -o accept.o
 
 clean: 
 	rm *.o output

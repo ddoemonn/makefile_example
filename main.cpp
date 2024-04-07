@@ -1,7 +1,7 @@
 // main.cpp
 
 #include <iostream>
-#include "accept_functions.h"
+#include "./accept/accept_functions.h"
 
 using namespace std;
 
